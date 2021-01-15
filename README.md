@@ -4,6 +4,6 @@ CMIP model explore various charging infrastructure network designs to serve a fr
 The details of modeling scope and methodology can be found at following publication
 Roni, M.S., Yi, Z. and Smart, J.G., 2019. Optimal charging management and infrastructure planning for free-floating shared electric vehicles. Transportation Research Part D: Transport and Environment, 76, pp.155-175.
 
-#Additioanl instruction to run the code
+#Additioanl instruction to run the code: 
 The MIP was solved using IBM’s CPLEX Version 12.6.2 with C++ Concert Technology. It is assumed the user have access to cplex library. When you compile a C++ application with a C++ library like CPLEX in Concert Technology, you need to tell your compiler where to find the CPLEX and Concert include files (that is, the header files), and you also need to tell the linker where to find the CPLEX and Concert libraries. An instruction can be found here (https://www.ibm.com/support/knowledgecenter/SSSA5P_20.1.0/ilog.odms.cplex.help/CPLEX/GettingStarted/topics/tutorials/Cplusplus/compiling.html
 
